@@ -1,0 +1,35 @@
+.stat {
+  display: table-cell;
+  width: 60px;
+  border: 2px solid #eeeeee;
+  padding: 2px 0 2px 0;
+}
+.stat.active {
+  border: 2px solid #000000;
+}
+.stat input[type=checkbox] {
+  display: none;
+}
+.stats-results-container {
+  height: 300px;
+  overflow: auto;
+}
+table.stats-results td {
+  width: 16px;
+}
+table.stats-results { background: #eeeeee; }
+table.stats-results tr td { background: #ffffff; }
+
+table.stats-results tr.hp td.hp { background: green; }
+table.stats-results tr.attack td.attack { background: green; }
+table.stats-results tr.defense td.defense { background: green; }
+table.stats-results tr.special-attack td.special-attack { background: green; }
+table.stats-results tr.special-defense td.special-defense { background: green; }
+table.stats-results tr.speed td.speed { background: green; }
+
+table.stats-results tr.no-hp td.hp { background: red; }
+table.stats-results tr.no-attack td.attack { background: red; }
+table.stats-results tr.no-defense td.defense { background: red; }
+table.stats-results tr.no-special-attack td.special-attack { background: red; }
+table.stats-results tr.no-special-defense td.special-defense { background: red; }
+table.stats-results tr.no-speed td.speed { background: red; }
